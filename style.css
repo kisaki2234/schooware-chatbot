@@ -53,3 +53,26 @@
   font-size: 14px;
   outline: none;
 }
+
+#close-chat {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+#close-chat:hover {
+  color: #ff6b6b;
+}
+
+#chat-header {
+  position: relative;
+}
+

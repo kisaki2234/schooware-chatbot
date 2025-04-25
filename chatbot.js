@@ -1,4 +1,14 @@
 // chatbot.js
+document.addEventListener('DOMContentLoaded', function() {
+  const closeButton = document.getElementById('close-chat');
+  const chatbot = document.getElementById('chatbot');
+  
+  closeButton.addEventListener('click', function() {
+    chatbot.style.display = 'none';
+    
+  });
+});
+
 const responses = {
     "how many students": "We have 476 students for the current term.",
     "how many teachers": "There are 48 teachers in total.",
